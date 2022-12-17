@@ -1,0 +1,37 @@
+name: "Release npm Node Project"
+description: "Release an npm Node project using semantic-release"
+branding:
+  icon: upload-cloud
+  color: red
+
+inputs:
+  node-version:
+    description: "Node version"
+    required: false
+    default: "lts/*"
+  npm-token:
+    description: "NPM token"
+    required: true
+  github-token:
+    description: "GitHub token"
+    required: false
+    default: ${{ github.token }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ inputs.node-version }}
+    - name: Install semrel dependencies
+      shell: sh
+      run: npm i --no-save @cihelper/preset-semanticrelease-npm
+    - name: Run Semantic Release
+      shell: sh
+      env:
+        NPM_TOKEN: ${{ inputs.npm-token }}
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+      run: npx semantic-release --extends @cihelper/preset-semanticrelease-npm
