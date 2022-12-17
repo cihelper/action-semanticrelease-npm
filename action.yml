@@ -28,7 +28,7 @@ runs:
         node-version: ${{ inputs.node-version }}
     - name: Install semrel dependencies
       shell: sh
-      run: npm i --no-save @cihelper/preset-semanticrelease-npm
+      run: npm i --no-save @cihelper/preset-semanticrelease-npm@^1.0.0
     - name: Run Semantic Release
       shell: sh
       env:
