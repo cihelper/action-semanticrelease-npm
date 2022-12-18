@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.1.1...v1.1.2) (2022-12-18)
+
+
+### Bug Fixes
+
+* correct outputs ([628288d](https://github.com/cihelper/action-semanticrelease-npm/commit/628288dfa0452e480e9e06ce9eabb6ca382d08b7))
+
 ## [1.1.1](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.1.0...v1.1.1) (2022-12-18)
 
 
