@@ -1,1 +1,8 @@
 # Changelog
+
+## [1.1.0](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.0.1...v1.1.0) (2022-12-18)
+
+
+### Features
+
+* switch to cycjimmy/semantic-release-action ([8f39106](https://github.com/cihelper/action-semanticrelease-npm/commit/8f391061d37c367f591df7cd2f11df1639fc104e))
