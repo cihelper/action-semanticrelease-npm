@@ -55,5 +55,5 @@ runs:
         NPM_TOKEN: ${{ inputs.npm-token }}
       with:
         semantic_version: ${{ steps.semantic-release-version.outputs.version }}
-        extra_plugins: "@cihelper/semanticrelease-preset-npm@^1"
+        extra_plugins: "@cihelper/semanticrelease-preset-npm@1"
         extends: "@cihelper/semanticrelease-preset-npm"
