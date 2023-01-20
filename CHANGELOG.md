@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.1.4...v1.2.0) (2023-01-20)
+
+
+### Features
+
+* add npm-install & npm-prepare-script inputs ([1ba6398](https://github.com/cihelper/action-semanticrelease-npm/commit/1ba6398fc5a097656b00cd1fbf65e04c5672468e))
+
 ## [1.1.4](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.1.3...v1.1.4) (2022-12-18)
 
 
