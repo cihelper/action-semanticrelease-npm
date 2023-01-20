@@ -16,6 +16,12 @@ inputs:
     description: "GitHub token"
     required: false
     default: ${{ github.token }}
+  npm-prepare-script:
+    description: "Script defined in package.json to run before publishing"
+    required: false
+  npm-install:
+    description: "Install dependencies from package-lock.json"
+    required: false
 
 outputs:
   released:
@@ -53,6 +59,8 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github-token }}
         NPM_TOKEN: ${{ inputs.npm-token }}
+        NPM_PREPARE_SCRIPT: ${{ inputs.npm-prepare-script }}
+        NPM_INSTALL: ${{ inputs.npm-install }}
       with:
         semantic_version: ${{ steps.semantic-release-version.outputs.version }}
         extra_plugins: "@cihelper/semanticrelease-preset-npm@1"
