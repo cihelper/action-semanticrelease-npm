@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.2.0...v1.3.0) (2023-01-20)
+
+
+### Features
+
+* install node if version is specified ([8d69bc9](https://github.com/cihelper/action-semanticrelease-npm/commit/8d69bc9e499bf1d6215dec5614c52837affe8272))
+
 ## [1.2.0](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.1.4...v1.2.0) (2023-01-20)
 
 
