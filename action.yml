@@ -15,9 +15,6 @@ inputs:
     description: "GitHub token"
     required: false
     default: ${{ github.token }}
-  npm-prepare-script:
-    description: "Script defined in package.json to run before publishing"
-    required: false
   npm-install:
     description: "Install dependencies from package-lock.json"
     required: false
@@ -53,6 +50,10 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: "${{ inputs.node-version }}"
+    - name: Install npm dependencies
+      if: ${{ inputs.npm-install }}
+      run: npm ci
+      shell: sh
     - name: Get semantic-release version
       shell: sh
       id: semantic-release-version
