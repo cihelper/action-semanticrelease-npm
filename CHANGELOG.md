@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.3.1...v1.3.2) (2023-09-26)
+
+
+### Bug Fixes
+
+* trigger release ([50413bf](https://github.com/cihelper/action-semanticrelease-npm/commit/50413bfb2820cc60857547c95e887f1e195e790d))
+* trigger release ([8aaa93e](https://github.com/cihelper/action-semanticrelease-npm/commit/8aaa93e4d89e8ed3a7263fb752d3388b10e20374))
+
 ## [1.3.1](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.3.0...v1.3.1) (2023-01-21)
 
 
