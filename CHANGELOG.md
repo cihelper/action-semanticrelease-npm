@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.3.3...v1.3.4) (2023-11-03)
+
+
+### Bug Fixes
+
+* use correct values for git-based outputs ([27cabb3](https://github.com/cihelper/action-semanticrelease-npm/commit/27cabb3fb7038eff60ff71da11ee22a74b79ad47))
+
 ## [1.3.3](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.3.2...v1.3.3) (2023-11-03)
 
 
