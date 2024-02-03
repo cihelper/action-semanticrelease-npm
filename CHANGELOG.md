@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.3.4...v1.3.5) (2024-02-03)
+
+
+### Bug Fixes
+
+* make npm-token optional ([52c7714](https://github.com/cihelper/action-semanticrelease-npm/commit/52c771439a96bc92f7a471ac24ceb19b86b44bd4))
+
 ## [1.3.4](https://github.com/cihelper/action-semanticrelease-npm/compare/v1.3.3...v1.3.4) (2023-11-03)
 
 
