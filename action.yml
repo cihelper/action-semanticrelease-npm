@@ -10,7 +10,7 @@ inputs:
     required: false
   npm-token:
     description: "NPM token"
-    required: true
+    required: false
   github-token:
     description: "GitHub token"
     required: false
