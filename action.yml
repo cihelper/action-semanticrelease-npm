@@ -62,7 +62,7 @@ runs:
   steps:
     - name: Setup Node
       if: ${{ inputs.node-version }}
-      uses: actions/setup-node@v5
+      uses: actions/setup-node@v6
       with:
         node-version: "${{ inputs.node-version }}"
     - name: Install npm dependencies
